@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806133881DF90C1B00E072C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806133871DF90C1B00E072C4 /* main.m */; };
+		8061338B1DF90C1B00E072C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8061338A1DF90C1B00E072C4 /* AppDelegate.m */; };
+		8061338E1DF90C1B00E072C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8061338D1DF90C1B00E072C4 /* ViewController.m */; };
+		806133911DF90C1B00E072C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8061338F1DF90C1B00E072C4 /* Main.storyboard */; };
+		806133931DF90C1B00E072C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806133921DF90C1B00E072C4 /* Assets.xcassets */; };
+		806133961DF90C1B00E072C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806133941DF90C1B00E072C4 /* LaunchScreen.storyboard */; };
+		806133A11DF90C1B00E072C4 /* AirSourceControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806133A01DF90C1B00E072C4 /* AirSourceControlTests.m */; };
+		806133AC1DF90C1B00E072C4 /* AirSourceControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806133AB1DF90C1B00E072C4 /* AirSourceControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8061339D1DF90C1B00E072C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8061337B1DF90C1B00E072C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806133821DF90C1B00E072C4;
+			remoteInfo = AirSourceControl;
+		};
+		806133A81DF90C1B00E072C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8061337B1DF90C1B00E072C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806133821DF90C1B00E072C4;
+			remoteInfo = AirSourceControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		806133831DF90C1B00E072C4 /* AirSourceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSourceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806133871DF90C1B00E072C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		806133891DF90C1B00E072C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8061338A1DF90C1B00E072C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8061338C1DF90C1B00E072C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8061338D1DF90C1B00E072C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		806133901DF90C1B00E072C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806133921DF90C1B00E072C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806133951DF90C1B00E072C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		806133971DF90C1B00E072C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8061339C1DF90C1B00E072C4 /* AirSourceControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirSourceControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806133A01DF90C1B00E072C4 /* AirSourceControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirSourceControlTests.m; sourceTree = "<group>"; };
+		806133A21DF90C1B00E072C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806133A71DF90C1B00E072C4 /* AirSourceControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirSourceControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806133AB1DF90C1B00E072C4 /* AirSourceControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirSourceControlUITests.m; sourceTree = "<group>"; };
+		806133AD1DF90C1B00E072C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806133801DF90C1B00E072C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806133991DF90C1B00E072C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806133A41DF90C1B00E072C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8061337A1DF90C1B00E072C4 = {
+			isa = PBXGroup;
+			children = (
+				806133851DF90C1B00E072C4 /* AirSourceControl */,
+				8061339F1DF90C1B00E072C4 /* AirSourceControlTests */,
+				806133AA1DF90C1B00E072C4 /* AirSourceControlUITests */,
+				806133841DF90C1B00E072C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806133841DF90C1B00E072C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806133831DF90C1B00E072C4 /* AirSourceControl.app */,
+				8061339C1DF90C1B00E072C4 /* AirSourceControlTests.xctest */,
+				806133A71DF90C1B00E072C4 /* AirSourceControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806133851DF90C1B00E072C4 /* AirSourceControl */ = {
+			isa = PBXGroup;
+			children = (
+				806133891DF90C1B00E072C4 /* AppDelegate.h */,
+				8061338A1DF90C1B00E072C4 /* AppDelegate.m */,
+				8061338C1DF90C1B00E072C4 /* ViewController.h */,
+				8061338D1DF90C1B00E072C4 /* ViewController.m */,
+				8061338F1DF90C1B00E072C4 /* Main.storyboard */,
+				806133921DF90C1B00E072C4 /* Assets.xcassets */,
+				806133941DF90C1B00E072C4 /* LaunchScreen.storyboard */,
+				806133971DF90C1B00E072C4 /* Info.plist */,
+				806133861DF90C1B00E072C4 /* Supporting Files */,
+			);
+			path = AirSourceControl;
+			sourceTree = "<group>";
+		};
+		806133861DF90C1B00E072C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806133871DF90C1B00E072C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8061339F1DF90C1B00E072C4 /* AirSourceControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				806133A01DF90C1B00E072C4 /* AirSourceControlTests.m */,
+				806133A21DF90C1B00E072C4 /* Info.plist */,
+			);
+			path = AirSourceControlTests;
+			sourceTree = "<group>";
+		};
+		806133AA1DF90C1B00E072C4 /* AirSourceControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				806133AB1DF90C1B00E072C4 /* AirSourceControlUITests.m */,
+				806133AD1DF90C1B00E072C4 /* Info.plist */,
+			);
+			path = AirSourceControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806133821DF90C1B00E072C4 /* AirSourceControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806133B01DF90C1B00E072C4 /* Build configuration list for PBXNativeTarget "AirSourceControl" */;
+			buildPhases = (
+				8061337F1DF90C1B00E072C4 /* Sources */,
+				806133801DF90C1B00E072C4 /* Frameworks */,
+				806133811DF90C1B00E072C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirSourceControl;
+			productName = AirSourceControl;
+			productReference = 806133831DF90C1B00E072C4 /* AirSourceControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8061339B1DF90C1B00E072C4 /* AirSourceControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806133B31DF90C1B00E072C4 /* Build configuration list for PBXNativeTarget "AirSourceControlTests" */;
+			buildPhases = (
+				806133981DF90C1B00E072C4 /* Sources */,
+				806133991DF90C1B00E072C4 /* Frameworks */,
+				8061339A1DF90C1B00E072C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8061339E1DF90C1B00E072C4 /* PBXTargetDependency */,
+			);
+			name = AirSourceControlTests;
+			productName = AirSourceControlTests;
+			productReference = 8061339C1DF90C1B00E072C4 /* AirSourceControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		806133A61DF90C1B00E072C4 /* AirSourceControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806133B61DF90C1B00E072C4 /* Build configuration list for PBXNativeTarget "AirSourceControlUITests" */;
+			buildPhases = (
+				806133A31DF90C1B00E072C4 /* Sources */,
+				806133A41DF90C1B00E072C4 /* Frameworks */,
+				806133A51DF90C1B00E072C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806133A91DF90C1B00E072C4 /* PBXTargetDependency */,
+			);
+			name = AirSourceControlUITests;
+			productName = AirSourceControlUITests;
+			productReference = 806133A71DF90C1B00E072C4 /* AirSourceControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8061337B1DF90C1B00E072C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "远正智联";
+				TargetAttributes = {
+					806133821DF90C1B00E072C4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AUGHA45A2F;
+						ProvisioningStyle = Automatic;
+					};
+					8061339B1DF90C1B00E072C4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AUGHA45A2F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 806133821DF90C1B00E072C4;
+					};
+					806133A61DF90C1B00E072C4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AUGHA45A2F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 806133821DF90C1B00E072C4;
+					};
+				};
+			};
+			buildConfigurationList = 8061337E1DF90C1B00E072C4 /* Build configuration list for PBXProject "AirSourceControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8061337A1DF90C1B00E072C4;
+			productRefGroup = 806133841DF90C1B00E072C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806133821DF90C1B00E072C4 /* AirSourceControl */,
+				8061339B1DF90C1B00E072C4 /* AirSourceControlTests */,
+				806133A61DF90C1B00E072C4 /* AirSourceControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806133811DF90C1B00E072C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806133961DF90C1B00E072C4 /* LaunchScreen.storyboard in Resources */,
+				806133931DF90C1B00E072C4 /* Assets.xcassets in Resources */,
+				806133911DF90C1B00E072C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8061339A1DF90C1B00E072C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806133A51DF90C1B00E072C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8061337F1DF90C1B00E072C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8061338E1DF90C1B00E072C4 /* ViewController.m in Sources */,
+				8061338B1DF90C1B00E072C4 /* AppDelegate.m in Sources */,
+				806133881DF90C1B00E072C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806133981DF90C1B00E072C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806133A11DF90C1B00E072C4 /* AirSourceControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806133A31DF90C1B00E072C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806133AC1DF90C1B00E072C4 /* AirSourceControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8061339E1DF90C1B00E072C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806133821DF90C1B00E072C4 /* AirSourceControl */;
+			targetProxy = 8061339D1DF90C1B00E072C4 /* PBXContainerItemProxy */;
+		};
+		806133A91DF90C1B00E072C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806133821DF90C1B00E072C4 /* AirSourceControl */;
+			targetProxy = 806133A81DF90C1B00E072C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8061338F1DF90C1B00E072C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806133901DF90C1B00E072C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		806133941DF90C1B00E072C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806133951DF90C1B00E072C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806133AE1DF90C1B00E072C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806133AF1DF90C1B00E072C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806133B11DF90C1B00E072C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUGHA45A2F;
+				INFOPLIST_FILE = AirSourceControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.remoteControl.AirSourceControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		806133B21DF90C1B00E072C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUGHA45A2F;
+				INFOPLIST_FILE = AirSourceControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.remoteControl.AirSourceControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		806133B41DF90C1B00E072C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AUGHA45A2F;
+				INFOPLIST_FILE = AirSourceControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.remoteControl.AirSourceControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirSourceControl.app/AirSourceControl";
+			};
+			name = Debug;
+		};
+		806133B51DF90C1B00E072C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AUGHA45A2F;
+				INFOPLIST_FILE = AirSourceControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.remoteControl.AirSourceControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirSourceControl.app/AirSourceControl";
+			};
+			name = Release;
+		};
+		806133B71DF90C1B00E072C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AUGHA45A2F;
+				INFOPLIST_FILE = AirSourceControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.remoteControl.AirSourceControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirSourceControl;
+			};
+			name = Debug;
+		};
+		806133B81DF90C1B00E072C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AUGHA45A2F;
+				INFOPLIST_FILE = AirSourceControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.remoteControl.AirSourceControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirSourceControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8061337E1DF90C1B00E072C4 /* Build configuration list for PBXProject "AirSourceControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806133AE1DF90C1B00E072C4 /* Debug */,
+				806133AF1DF90C1B00E072C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806133B01DF90C1B00E072C4 /* Build configuration list for PBXNativeTarget "AirSourceControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806133B11DF90C1B00E072C4 /* Debug */,
+				806133B21DF90C1B00E072C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		806133B31DF90C1B00E072C4 /* Build configuration list for PBXNativeTarget "AirSourceControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806133B41DF90C1B00E072C4 /* Debug */,
+				806133B51DF90C1B00E072C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		806133B61DF90C1B00E072C4 /* Build configuration list for PBXNativeTarget "AirSourceControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806133B71DF90C1B00E072C4 /* Debug */,
+				806133B81DF90C1B00E072C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8061337B1DF90C1B00E072C4 /* Project object */;
+}
